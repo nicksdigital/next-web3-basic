@@ -1,6 +1,6 @@
 {
   "name": "next-web3-basic",
-  "version": "0.1.0-alpha",
+  "version": "0.1.0",
   "description": "Simple Web3 integration for Next.js applications",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -52,6 +52,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/nick/next-web3-basic"
+    "url": "https://github.com/nicksdigital/next-web3-basic"
   }
 }
