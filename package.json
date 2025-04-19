@@ -1,6 +1,6 @@
 {
-  "name": "next-web3-basic",
-  "version": "0.1.0",
+  "name": "@nicksdigital/next-web3-basic",
+  "version": "0.1.1",
   "description": "Simple Web3 integration for Next.js applications",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
