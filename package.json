@@ -1,0 +1,57 @@
+{
+  "name": "next-web3-basic",
+  "version": "0.1.0-alpha",
+  "description": "Simple Web3 integration for Next.js applications",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "keywords": [
+    "next",
+    "nextjs",
+    "plugin",
+    "web3",
+    "ethereum",
+    "blockchain",
+    "wallet"
+  ],
+  "author": "Nick",
+  "license": "MIT",
+  "peerDependencies": {
+    "next": ">=15.0.0",
+    "react": ">=18.0.0",
+    "react-dom": ">=18.0.0",
+    "ethers": ">=6.0.0"
+  },
+  "dependencies": {
+    "crypto-browserify": "^3.12.0",
+    "stream-browserify": "^3.0.0",
+    "assert": "^2.0.0",
+    "stream-http": "^3.2.0",
+    "https-browserify": "^1.0.0",
+    "os-browserify": "^0.3.0",
+    "url": "^0.11.0",
+    "path-browserify": "^1.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "typescript": "^5.4.0",
+    "ethers": "^6.13.5"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nick/next-web3-basic"
+  }
+}
